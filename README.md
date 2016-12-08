@@ -12,7 +12,7 @@ There are two headers, `c_bits.h` and `cpp_bits.hpp`. The interfaces are very si
 #include "c_bits.h"
 
 int main(){
-const char * data = b01001000 b01100101 b01101100 b01101100 b01101111 b00101110;
+    const char * data = b01001000 b01100101 b01101100 b01101100 b01101111 b00101110;
     // data now has a string literal that represents that bit pattern. In this case,
     // we have the ASCII/UTF-8 representation of "Hello."
     printf("%s", data);
